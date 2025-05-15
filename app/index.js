@@ -118,7 +118,7 @@ export default function HomeScreen() {
             <TextInput
               value={newTask} // O valor do campo de texto é controlado pelo estado `newTask`
               onChangeText={setNewTask} // Atualiza o estado com o novo texto
-              placeholder="Ex: Estudar Hooks"
+              placeholder="Adicionar contato"
               style={styles.input}
             />
             <Pressable onPress={addOrEditTask} style={{ marginBottom: 8 }}>
