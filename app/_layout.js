@@ -11,7 +11,7 @@ export default function Layout() {
     <Stack
       screenOptions={{
         headerStyle: { backgroundColor: "#FF1493" }, // Cor vermelha da paleta (Pantone 485)
-        headerTintColor: "#fff", // Cor do texto no cabeçalho (branco)
+        headerTintColor: "#1e2aa8", // Cor do texto no cabeçalho (branco)
       }}
     >
       <Stack.Screen

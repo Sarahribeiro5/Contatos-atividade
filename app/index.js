@@ -1,5 +1,6 @@
 // app/index.js
 import React, { useState } from "react";
+import { List, FAB, Dialog, Avatar} from "react"
 import {
   View,
   Text,
@@ -68,7 +69,7 @@ export default function HomeScreen() {
         }}
         style={styles.addButton}
       >
-        <Text style={styles.addButtonText}>＋ Nova Tarefa</Text>
+        <Text style={styles.addButtonText}>＋ Novo Contato</Text>
       </Pressable>
 
       {/* Lista de tarefas */}
@@ -141,16 +142,17 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    backgroundColor: "#1e2aa8"
   },
   addButton: {
     marginBottom: 16,
     alignSelf: "center",
-    backgroundColor: "#FF1493", // Vermelho (Pantone 485)
+    backgroundColor: "#FF1493", 
     padding: 12,
     borderRadius: 8,
   },
   addButtonText: {
-    color: "#fff",
+    color: "#1e2aa8",
     fontSize: 16,
   },
   taskItemContainer: {
@@ -187,7 +189,7 @@ const styles = StyleSheet.create({
   emptyText: {
     textAlign: "center",
     marginTop: 32,
-    color: "#666",
+    color: "#",
   },
   modalBackdrop: {
     flex: 1,
