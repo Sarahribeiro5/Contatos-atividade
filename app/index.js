@@ -96,9 +96,6 @@ export default function HomeScreen() {
             </View>
           </View>
         )}
-        ListEmptyComponent={
-          <Text style={styles.emptyText}>Nenhuma tarefa ainda!</Text>
-        }
       />
 
       {/* Modal para adicionar ou editar tarefa */}
@@ -112,7 +109,7 @@ export default function HomeScreen() {
           <View style={styles.modalContent}>
             <Text style={{ marginBottom: 8 }}>
               {editIndex === null
-                ? "Digite sua nova tarefa:"
+                ? "Digite o número do novo contato:"
                 : "Edite a tarefa:"}
             </Text>
             <TextInput
